@@ -8,11 +8,11 @@ third party dependencies from spamming the console with unfiltered output.
 
 ## Special settings:
 
-"disabled" -- gag all console tracing. Good for release builds.
-"matrixMode" -- override all tags to enabled. Good for those times you want to see *everything* that's going on.
-"timestampTraces" -- add timestamp (ms) to every log line.
-"concat" -- attempt to stringify and concatenate all arguments of trace calls. Useful for platforms that don't format JS outputs very well.
-"PROFILE" -- start/end a profiling point. Useful for platforms with no advanced profiling or flame graphs, e.g. mobile/embedded.
+* "disabled" -- gag all console tracing. Good for release builds.
+* "matrixMode" -- override all tags to enabled. Good for those times you want to see *everything* that's going on.
+* "timestampTraces" -- add timestamp (ms) to every log line.
+* "concat" -- attempt to stringify and concatenate all arguments of trace calls. Useful for platforms that don't format JS outputs very well.
+* "PROFILE" -- start/end a profiling point. Useful for platforms with no advanced profiling or flame graphs, e.g. mobile/embedded.
 
 For different logging levels, continue using console.warn, console.error as normal.
 
