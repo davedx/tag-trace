@@ -1,0 +1,29 @@
+{
+  "name": "tag-trace",
+  "version": "1.0.0",
+  "description": "A simple tag based logging tracer",
+  "main": "trace.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davedx/tag-trace.git"
+  },
+  "keywords": [
+    "logger",
+    "tracer",
+    "tags",
+    "console",
+    "log"
+  ],
+  "author": "Dave Clayton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davedx/tag-trace/issues"
+  },
+  "homepage": "https://github.com/davedx/tag-trace",
+  "dependencies": {
+    "json-stringify-safe": "^5.0.0"
+  }
+}
